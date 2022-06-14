@@ -4,8 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        header: {
-          100: '#C84E89'
+        headerGradient: {
+          left: '#C84E89',
+          right: '#F15F79' 
         },
         buttonDefault: {
           100: '#6C63FF'

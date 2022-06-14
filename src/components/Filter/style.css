@@ -1,0 +1,3 @@
+.button-filter {
+  @apply flex items-center justify-center bg-[#F2F2F2] w-24 p-3 font-bold text-[#757575];
+}

@@ -1,9 +1,9 @@
 import { ElementStyledType } from "../../interfaces/ElementStyledType";
 
-export function Button({ children, icon, classNameElement, classNameChildren }: ElementStyledType) {
+export function Button({ children, icon, classNameChildren, ...rest }: ElementStyledType) {
   return (
     <>
-      <button className={classNameElement}>
+      <button {...rest}>
         {icon ?? ''}
         <span className={classNameChildren}>{children}</span>
       </button>

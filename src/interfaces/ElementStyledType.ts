@@ -1,9 +1,8 @@
 import { IconProps } from "phosphor-react";
-import { ReactElement, ReactNode } from "react";
+import { HTMLAttributes, InputHTMLAttributes, ReactElement, ReactNode } from "react";
 
-export interface ElementStyledType {
+export interface ElementStyledType extends HTMLAttributes<any> {
   children: ReactNode;
   icon?: ReactElement<IconProps>;
-  classNameElement?: string;
   classNameChildren?: string;
 }
